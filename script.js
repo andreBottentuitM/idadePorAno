@@ -6,7 +6,7 @@ function identidade() {
         alert(`A idade de ${nome} é: ${2022 - ano}`)
     } else {
         alert("Error: Dado inserido errado!")
-        prompt("Qual o ano que você nasceu?")
+        identidade()
     }
 }
 
